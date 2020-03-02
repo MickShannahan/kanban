@@ -4,7 +4,7 @@ let ObjectId = Schema.Types.ObjectId
 
 const List = new Schema({
   title: { type: String, required: true },
-  authorId: { type: String, required: true },
+  creatorEmail: { type: String, required: true },
   boardId: { type: ObjectId, ref: 'Board', required: true }
 }, { timestamps: true, toJSON: { virtuals: true } })
 
