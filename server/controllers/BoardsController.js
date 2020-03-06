@@ -9,7 +9,7 @@ import { boardService } from '../services/BoardService'
 export class BoardsController extends BaseController {
   constructor() {
     super("api/boards")
-    this.router = express.Router()
+    this.router
       .use(auth0provider.getAuthorizedUserInfo)
       .get('', this.getAll)
       .get('/:id', this.getById)
