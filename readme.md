@@ -5,13 +5,13 @@ A Kanban board is a method for managing the creation of products with an emphasi
 
 ## Goals
 
-In this checkpoint students will demonstrate a working knowledge of building full-stack applications. They will utilize a VueJs frontend implementing the Vuex design and Vue-Router to manage the dom. On the server side students will use Express with Node.js for their server, as well as implementing express-sessions for authentication, mongoose as an ORM and MongoDB as their database.
+In this checkpoint students will demonstrate a working knowledge of building full-stack applications. They will utilize a VueJs frontend implementing the Vuex design and Vue-Router to manage the dom. On the server side students will use Express with Node.js for their server, as well as implementing auth0 for authentication, mongoose as an ORM and MongoDB as their database.
 
 ## The Buisness Logic
 
-Kanban is a simple enough application. Users have the request to be able to create and manage boards, lists, and tasks. Tasks should also have the ability to add notes or comments. This setup will take a while to get all ironed out but we have some time to work on it so don't fret.
+Kanban is a simple enough application. Users will be able to create and manage boards, lists, and tasks. Tasks should also have the ability to add notes or comments. This setup will take a while to get all ironed out but we have some time to work on it so don't fret.
 
-A board manages several lists. Once created lists can not be transfered between boards but they can be removed. If a list is removed go ahead and remove all of the tasks and comments on the list as well to avoid orphan data.
+A board manages several lists. Once created lists can not be transfered between boards but they can be removed. If a list is removed go ahead and remove all of the tasks and comments on the list as well to avoid orphaned data.
 
 A task should be able to move between any of the lists on whatever board it was created. Tasks can be removed individually. 
 
