@@ -46,12 +46,6 @@
 </template>
 
 <script>
-import axios from "axios";
-
-let _api = axios.create({
-  baseURL: "https://localhost:3000",
-  withCredentials: true
-});
 export default {
   name: "Navbar",
   methods: {
