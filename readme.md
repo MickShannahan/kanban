@@ -38,7 +38,7 @@ It will probably be helpful to start on the backend of this application first. U
 
 On the server you will utilize a node-mongodb setup with express sessions and a mongoose ORM. The server side code needs to be setup similar to your previous projects*. You will need to create a new free database on atlas for this assignment. 
 
-The active user is always stored on the server side via sessions so you should be able to enforce some of the security concerns using something like `req.userInfo.email`
+The active user is always stored on the server side via sessions so you should be able to enforce some of the security concerns using something like `req.userInfo.id`
 
 For now all users can see only their boards and anyone can create boards, lists, tasks, or comments but only allow them to do so on their own boards. Once we have all of the features working we will move to an invite only board setup that will have boards belonging to a primary user and having contributors
 
