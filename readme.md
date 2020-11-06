@@ -5,7 +5,7 @@ A Kanban board is a method for managing the creation of products with an emphasi
 
 ## Goals
 
-In this checkpoint students will demonstrate a working knowledge of building full-stack applications. They will utilize a VueJs frontend implementing the Vuex design and Vue-Router to manage the dom. On the server side students will use Express with Node.js for their server, as well as implementing auth0 for authentication, mongoose as an ORM and MongoDB as their database.
+In this checkpoint students will demonstrate a working knowledge of building full-stack applications. They will utilize a VueJs frontend implementing the Vue-Router, and the AppState pattern to manage the dom. On the server side students will use Express with Node.js for their server, as well as implementing auth0 for authentication, mongoose as an ORM and MongoDB as their database.
 
 ## The Buisness Logic
 
