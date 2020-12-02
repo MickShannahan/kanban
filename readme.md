@@ -49,8 +49,6 @@ The Web client will be a vue application. The project has already been initializ
 
 ## Requirements
 
-### Visualization
-
 - The Front End is styled (this is a broad concept, but put a bit of effort into it as this makes a great portfolio piece)
 - A user should not have to re-login everytime they refresh the page
 - From the **Boards** Page Users can create/delete their own boards
@@ -58,9 +56,6 @@ The Web client will be a vue application. The project has already been initializ
 - Tasks can be created/deleted inside any list on the **Board** page
 - Tasks can be moved between lists (Does not have to be drag and drop)
 - A user can add and remove comments to a Task
-
-### Functionality
-
 - Only the creator of an object can delete it
 - A user Must have the ability to log in and out.
 - The Backend needs to be able to create and store the boards created by users
