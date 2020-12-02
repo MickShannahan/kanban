@@ -1,4 +1,4 @@
-{"requirements:
+{"requirements":
 ["The Front End is styled (this is a broad concept, but put a bit of effort into it as this makes a great portfolio piece)",
 "A user should not have to re-login everytime they refresh the page",
 "From the **Boards** Page Users can create/delete their own boards",
