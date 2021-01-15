@@ -12,4 +12,9 @@
 "Each board can have lists",
 "Each List can have tasks",
 "Each task can have comments",
-"Only authenticated users currently logged in can access the api"]}
+"Only authenticated users currently logged in can access the api"],
+"stretchGoals":[
+  "Add to the front and backend the ability to have collaborators on boards",
+"Add Sockets to the project so any collaborator gets instant feedback when users modify a board",
+"Comment authors username is next to the comment"
+]}
